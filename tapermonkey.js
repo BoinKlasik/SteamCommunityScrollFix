@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Steam Community Chat Script
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Fixes the steam community chat to always scroll to the bottom on new messages.
 // @author       BoinKlasik
 // @match        https://steamcommunity.com/chat
