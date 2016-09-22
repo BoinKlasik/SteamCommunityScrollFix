@@ -15,7 +15,10 @@
         var old = CWebChatDialog.prototype.AppendChatMessage;
         return function() {
             var result = old.apply(this, arguments);
-            var messages = document.getElementsByClassName('chat_message');
+            var messages = document.querySelectorAll('.chat_dialog[style*="display: block"] .chat_message');
+            if(messages.length === 0) {
+                messages = document.querySelectorAll('.chat_dialog .chat_message');
+            }
             var last = messages[messages.length - 1];
             last.scrollIntoView();
             return result;
