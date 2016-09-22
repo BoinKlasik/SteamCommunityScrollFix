@@ -6,6 +6,7 @@
 // @author       BoinKlasik
 // @match        https://steamcommunity.com/chat
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/BoinKlasik/SteamCommunityScrollFix/master/tapermonkey.js
 // ==/UserScript==
 
 (function() {
